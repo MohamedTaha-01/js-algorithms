@@ -35,7 +35,7 @@ _Examples:_
 
 ### Paint bucket fill
 
-Given a matrix (n x n) `matrix`, a pair of coordinates `coords` ([x,y]) and a number `fill`, it changes the value of the given position in the matrix to fill and propagates the changes recursively through the horizontal, vertical and diagonal axis to all the neighbors that share the same value with the original point.
+Given a matrix `matrix`, a pair of coordinates `coords` ([x,y]) and a number `fill`, it changes the value of the given position in the matrix to fill and propagates the changes recursively through the horizontal, vertical and diagonal axis to all the neighbors that share the same value with the original point.
 
 _Examples:_
 
@@ -106,4 +106,13 @@ _Examples:_
 
 ```javascript
 moveZeros([false,1,0,1,2,0,1,3,"a"]) => [false,1,1,2,1,3,"a",0,0]
+```
+
+### Rankify
+
+Given an array, returns an array where each element represents the rank of the corresponding value in the original array. The highest value receives a rank of 1, the second highest receives a rank of 2, and so on. For values that are tied, the same rank is assigned to all.
+
+```javascript
+rankify([9,3,6,10]) => [2,4,3,1]
+rankify([3,3,3,3,3,5,1]) => [2,2,2,2,2,1,3]
 ```
