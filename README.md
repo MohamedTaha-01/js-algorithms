@@ -141,3 +141,13 @@ const ifyier = suffixer("ify");
 ifyier("shop") => "shopify"
 ifyier("spot") => "spotify"
 ```
+
+### Wordle Checker
+
+Given a 5 letter Wordle and a 5 letter guess, returns an array of 5 colors as strings based on the submitted guess and correct Wordle.
+
+_Examples:_
+
+```javascript
+wordleCheck("steak", "stake"); // returns ["Green", "Green", "Yellow", "Yellow", "Yellow"]
+```
