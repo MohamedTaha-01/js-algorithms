@@ -30,6 +30,17 @@ _Examples:_
 fractionReducer([45, 120]) => [3, 8]
 ```
 
+### Luhn algorithm
+
+Given a positive integer of up to 16 digits, returns true if it is a valid credit card number, and false if it is not.
+
+_Examples:_
+
+```javascript
+luhnAlgorithm(4112344112344114) => false
+luhnAlgorithm(4111111111111111) => true
+```
+
 ### Sum of perfect squares
 
 Given an integer, finds the length of the smallest list of perfect squares which add up to the number.
