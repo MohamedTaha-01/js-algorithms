@@ -121,9 +121,9 @@ rankify([3,3,3,3,3,5,1]) => [2,2,2,2,2,1,3]
 
 ### Reverse words
 
-_Examples:_
-
 Given a string, reverses each word in the string, mantaining spaces.
+
+_Examples:_
 
 ```javascript
 reverse("This is an example!") => "sihT si na !elpmaxe"
