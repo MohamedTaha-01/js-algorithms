@@ -33,3 +33,15 @@ _Examples:_
 smaller([5, 4, 3, 2, 1]) => [4, 3, 2, 1, 0]
 smaller([1, 2, 0]) => [1, 1, 0]
 ```
+
+### Sum of perfect squares
+
+Given an integer, finds the length of the smallest list of perfect squares which add up to the number.
+
+_Examples:_
+
+```javascript
+minSquares(17) => 2 // 17 = 16 + 1
+minSquares(15) = 4 // 15 = 9 + 4 + 1 + 1
+minSquares(16) = 1 // 16 = 16
+```
