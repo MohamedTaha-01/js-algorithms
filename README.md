@@ -20,7 +20,7 @@ Function that reduces fractions to their simplest form.
 _Examples:_
 
 ```javascript
-fractionReducer([45, 120]) --> [3, 8]
+fractionReducer([45, 120]) => [3, 8]
 ```
 
 ### How many smaller
@@ -42,6 +42,16 @@ _Examples:_
 
 ```javascript
 minSquares(17) => 2 // 17 = 16 + 1
-minSquares(15) = 4 // 15 = 9 + 4 + 1 + 1
-minSquares(16) = 1 // 16 = 16
+minSquares(15) => 4 // 15 = 9 + 4 + 1 + 1
+minSquares(16) => 1 // 16 = 16
+```
+
+### Move zeros
+
+Given an array, returns an array with all zeros moved to the end, preserving the order of all the other elements.
+
+_Examples:_
+
+```javascript
+moveZeros([false,1,0,1,2,0,1,3,"a"]) => [false,1,1,2,1,3,"a",0,0]
 ```
