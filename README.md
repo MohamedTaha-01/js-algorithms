@@ -1,4 +1,4 @@
-Set of utility algorithms created in javascript.
+Set of various utility algorithms created in javascript for learning purposes.
 
 ### Readable time
 
@@ -31,6 +31,18 @@ _Examples:_
     [9, 10, 11, 12],
     [13, 14, 15, 16],
   ]) => [1, 2, 3, 4, 8, 12, 16, 15, 14, 13, 9, 5, 6, 7, 11, 10]
+```
+
+### Roman numeral decoder
+
+Given a roman numeral as a string, returns its value as a numeric decimal integer.
+
+_Examples:_
+
+```javascript
+romanDecode("XXVII") => 27
+romanDecode("MMMCMXCIX") => 3999
+romanDecode("MMMMCMXCIX") => 4999
 ```
 
 ### Fraction reducer
