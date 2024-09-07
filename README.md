@@ -112,7 +112,20 @@ moveZeros([false,1,0,1,2,0,1,3,"a"]) => [false,1,1,2,1,3,"a",0,0]
 
 Given an array, returns an array where each element represents the rank of the corresponding value in the original array. The highest value receives a rank of 1, the second highest receives a rank of 2, and so on. For values that are tied, the same rank is assigned to all.
 
+_Examples:_
+
 ```javascript
 rankify([9,3,6,10]) => [2,4,3,1]
 rankify([3,3,3,3,3,5,1]) => [2,2,2,2,2,1,3]
+```
+
+### Reverse words
+
+_Examples:_
+
+Given a string, reverses each word in the string, mantaining spaces.
+
+```javascript
+reverse("This is an example!") => "sihT si na !elpmaxe"
+reverse("double  spaces") => "elbuod  secaps"
 ```
