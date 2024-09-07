@@ -12,3 +12,10 @@ readableTime(592318) => "20:31:58"
 readableTime(604800) => "00:00:00"
 ```
 
+### Fraction reducer
+Function that reduces fractions to their simplest form.
+
+*Examples:*
+``` javascript
+fractionReducer([45, 120]) --> [3, 8]
+```
