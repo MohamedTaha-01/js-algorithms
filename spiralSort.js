@@ -1,4 +1,4 @@
-function narutoSort(m) {
+function spiralSort(m) {
   if (!m.length) return [];
   if (m.length === 1) return m[0];
 
@@ -22,5 +22,5 @@ function narutoSort(m) {
     result.push(matrix[i].shift());
   }
 
-  return result.concat(naruto(matrix));
+  return result.concat(spiralSort(matrix));
 }

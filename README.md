@@ -13,19 +13,19 @@ readableTime(592318) => "20:31:58"
 readableTime(604800) => "00:00:00"
 ```
 
-### Naruto sort
+### Spiral sort
 
 Given a matrix, returns an array with the elements arranged from outermost elements to the middle element, traveling clockwise from the top left, following a spiral form.
 
 _Examples:_
 
 ```javascript
-  naruto([
+  spiralSort([
     [1, 2, 3],
     [8, 9, 4],
     [7, 6, 5],
   ]) => [1, 2, 3, 4, 5, 6, 7, 8, 9]
-  naruto([
+  spiralSort([
     [1, 2, 3, 4],
     [5, 6, 7, 8],
     [9, 10, 11, 12],
