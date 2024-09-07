@@ -20,6 +20,26 @@ bucketPaint(matrix, [2,1], 4)
  [2,3,2,2]]              [2,4,2,2]]
 ```
 
+### Deep clone
+
+Given an object, returns a deep copy of it. Copies nested objects and arrays recursively.
+
+_Examples:_
+
+```javascript
+deepClone({
+  a: 1,
+  b: "foo",
+  c: false,
+  nested: [1, 2, { marco: "polo" }],
+}) => {
+  a: 1,
+  b: "foo",
+  c: false,
+  nested: [1, 2, { marco: "polo" }],
+}
+```
+
 ### Fraction reducer
 
 Function that reduces fractions to their simplest form.
