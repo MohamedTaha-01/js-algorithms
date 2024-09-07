@@ -149,5 +149,5 @@ Given a 5 letter Wordle and a 5 letter guess, returns an array of 5 colors as st
 _Examples:_
 
 ```javascript
-wordleCheck("steak", "stake"); // returns ["Green", "Green", "Yellow", "Yellow", "Yellow"]
+wordleCheck("steak", "stake") => ["Green", "Green", "Yellow", "Yellow", "Yellow"]
 ```
