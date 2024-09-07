@@ -1,4 +1,4 @@
-function naruto(m) {
+function narutoSort(m) {
   if (!m.length) return [];
   if (m.length === 1) return m[0];
 
