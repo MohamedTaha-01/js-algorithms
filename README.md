@@ -33,6 +33,26 @@ _Examples:_
   ]) => [1, 2, 3, 4, 8, 12, 16, 15, 14, 13, 9, 5, 6, 7, 11, 10]
 ```
 
+### Paint bucket fill
+
+Given a matrix (n x n) `matrix`, a pair of coordinates `coords` ([x,y]) and a number `fill`, it changes the value of the given position in the matrix to fill and propagates the changes recursively through the horizontal, vertical and diagonal axis to all the neighbors that share the same value with the original point.
+
+_Examples:_
+
+```javascript
+bucketPaint(matrix, [2,1], 4)
+[[2,2,3,3],             [[2,2,4,4],
+ [2,2,3,3],     =>       [2,2,4,4],
+ [2,2,2,2],              [2,2,2,2],
+ [2,2,2,2]]              [2,2,2,2]]
+
+bucketPaint(matrix, [2,1], 4)
+ [[2,2,3,3],             [[2,2,4,4],
+ [2,2,3,3],     =>       [2,2,4,4],
+ [2,3,2,2],              [2,4,2,2],
+ [2,3,2,2]]              [2,4,2,2]]
+```
+
 ### Roman numeral decoder
 
 Given a roman numeral as a string, returns its value as a numeric decimal integer.
