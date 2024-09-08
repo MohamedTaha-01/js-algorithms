@@ -1,5 +1,23 @@
 Set of various utility algorithms created in javascript for learning purposes.
 
+[Paint bucket fill](#paint-bucket-fill)
+[Deep clone](#deep-clone)
+[Fraction reducer](#fraction-reducer)
+[Longest palindrome](#longest-palindrome)
+[Luhn algorithm](#luhn-algorithm)
+[Sum of perfect squares](#sum-of-perfect-squares)
+[Move zeros](#move-zeros)
+[Rankify](#rankify)
+[Readable time](#readable-time)
+[Reverse words](#reverse-words)
+[Roman numeral decoder](#roman-numeral-decoder)
+[How many smaller](#how-many-smaller)
+[Spiral sort](#spiral-sort)
+[Suffixer](#suffixer)
+[Wordle Checker](#wordle-checker)
+
+---
+
 ### Paint bucket fill
 
 Given a matrix `matrix`, a pair of coordinates `coords` ([x,y]) and a number `fill`, it changes the value of the given position in the matrix to fill and propagates the changes recursively through the horizontal, vertical and diagonal axis to all the neighbors that share the same value with the original point.
