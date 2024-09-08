@@ -50,6 +50,17 @@ _Examples:_
 fractionReducer([45, 120]) => [3, 8]
 ```
 
+### Longest palindrome
+
+Given a string, returns the length of the longest palindrome in it.
+
+_Examples:_
+
+```javascript
+longestPalindrome('zzbaabcd') => 4
+longestPalindrome('HYTBCABADEFGHABCDEDCBAGHTFYW12345678987654321ZWETYGDE') => 17
+```
+
 ### Luhn algorithm
 
 Given a positive integer of up to 16 digits, returns true if it is a valid credit card number, and false if it is not.
