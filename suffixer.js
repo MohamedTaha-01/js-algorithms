@@ -1,5 +1,5 @@
 function suffixer(suffix) {
   return function (word) {
-    return word.concat(suffix);
-  };
+    return word.concat(suffix)
+  }
 }
