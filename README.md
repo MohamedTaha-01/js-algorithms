@@ -1,4 +1,4 @@
-Set of various utility algorithms created in javascript for learning purposes.
+Set of various utility algorithms created in javascript.
 
 - [Paint bucket fill](#paint-bucket-fill)
 - [Deep clone](#deep-clone)
